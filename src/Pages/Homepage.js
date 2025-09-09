@@ -50,7 +50,7 @@ export default function Homepage() {
 
       {/* Card met fade-in animatie */}
       <motion.div
-        className="relative z-10 bg-white/70 backdrop-blur-md rounded-2xl shadow-2xl border-2 border-green-800/80 p-6 sm:p-8 w-full max-w-md text-center mx-4"
+        className="relative z-10 bg-white/60 backdrop-blur-md rounded-2xl shadow-2xl border-2 border-green-800/80 p-6 sm:p-8 w-full max-w-md text-center mx-4"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
