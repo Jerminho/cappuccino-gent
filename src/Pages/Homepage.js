@@ -67,6 +67,14 @@ export default function Homepage() {
 
         <div className="flex flex-col gap-4">
           <a
+            href="/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-green-900 text-white py-3 rounded-xl font-semibold hover:bg-green-800 transition shadow-lg"
+          >
+            Bekijk Menu
+          </a>
+          <a
             href="https://www.instagram.com/cappuccino_gent/"
             target="_blank"
             rel="noopener noreferrer"
@@ -81,14 +89,6 @@ export default function Homepage() {
             className="bg-green-900 text-white py-3 rounded-xl font-semibold hover:bg-green-800 transition shadow-lg"
           >
             TikTok
-          </a>
-          <a
-            href="/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-green-900 text-white py-3 rounded-xl font-semibold hover:bg-green-800 transition shadow-lg"
-          >
-            Bekijk Menu
           </a>
         </div>
 
