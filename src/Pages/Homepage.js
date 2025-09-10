@@ -77,7 +77,6 @@ export default function Homepage() {
           </a>
           <a
             href="https://www.instagram.com/cappuccino_gent/"
-            target="_blank"
             rel="noopener noreferrer"
             className="bg-green-900 text-white py-3 rounded-xl font-semibold hover:bg-green-800 transition shadow-lg"
           >
@@ -85,11 +84,17 @@ export default function Homepage() {
           </a>
           <a
             href="https://www.tiktok.com/@cappuccinogent"
-            target="_blank"
             rel="noopener noreferrer"
             className="bg-green-900 text-white py-3 rounded-xl font-semibold hover:bg-green-800 transition shadow-lg"
           >
             TikTok
+          </a>
+          <a
+            href="https://www.google.com/search?rlz=1C1SQJL_nlBE920BE920&q=Cappuccino+Gent+Reviews&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxI2NDU1NjQxNbIws7A0MzQyMjcy2MDI-IpR3DmxoKA0OTkzL1_BPTWvRCEotSwztbx4ESsuGQDIBf4wTgAAAA&rldimm=1553145286896122720&cs=1&hl=nl&sa=X&ved=0CB8Q9fQKKABqFwoTCOCSscfuzY8DFQAAAAAdAAAAABAG&biw=1536&bih=730&dpr=1.25&ibp=gwp;0,6#vhid=/g/11x8tdynn7&vssid=rllrl&lkt=LocalPoiReviews"
+            rel="noopener noreferrer"
+            className="bg-green-900 text-white py-3 rounded-xl font-semibold hover:bg-green-800 transition shadow-lg"
+          >
+            Google Reviews
           </a>
         </div>
 
@@ -112,4 +117,3 @@ export default function Homepage() {
     </div>
   );
 }
-
