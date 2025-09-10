@@ -19,25 +19,27 @@ export default function Homepage() {
 
   return (
     <div className="relative h-screen w-screen flex items-center justify-center overflow-hidden">
-      {/* 🎥 Video achtergrond */}
+      {/* 🎥 Video background injected as raw HTML */}
       {useVideo ? (
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          disablePictureInPicture="true"
-          preload="true"
+        <div
           className="absolute inset-0 w-full h-full object-cover"
-        >
-          <source src="/images/Cappuccino5.mp4" type="video/mp4" />
-          {/* Fallback naar afbeelding */}
-          <img
-            src={bg}
-            alt="coffee background"
-            className="w-full h-full object-cover"
-          />
-        </video>
+          dangerouslySetInnerHTML={{
+            __html: `
+              <video 
+                autoplay 
+                loop 
+                muted 
+                playsinline 
+                preload="auto" 
+                disablepictureinpicture 
+                class="absolute inset-0 w-full h-full object-cover"
+              >
+                <source src="/images/Cappuccino5.mp4" type="video/mp4" />
+                <img src="${bg}" alt="coffee background" class="w-full h-full object-cover" />
+              </video>
+            `,
+          }}
+        />
       ) : (
         <div
           className="absolute inset-0 bg-cover bg-center"
@@ -45,10 +47,10 @@ export default function Homepage() {
         />
       )}
 
-      {/* Overlay voor leesbaarheid */}
+      {/* Overlay */}
       <div className="absolute inset-0 bg-black/30" />
 
-      {/* Card met fade-in animatie */}
+      {/* Card with fade-in */}
       <motion.div
         className="relative z-10 bg-white/60 backdrop-blur-md rounded-2xl shadow-2xl border-2 border-green-800/80 p-6 sm:p-8 w-full max-w-md text-center mx-4"
         initial={{ opacity: 0, y: 20 }}
@@ -110,3 +112,4 @@ export default function Homepage() {
     </div>
   );
 }
+
