@@ -75,6 +75,14 @@ export default function Homepage() {
             Instagram
           </a>
           <a
+            href="https://www.tiktok.com/@cappuccinogent"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-green-900 text-white py-3 rounded-xl font-semibold hover:bg-green-800 transition shadow-lg"
+          >
+            TikTok
+          </a>
+          <a
             href="/"
             target="_blank"
             rel="noopener noreferrer"
