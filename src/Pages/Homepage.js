@@ -52,18 +52,20 @@ export default function Homepage() {
 
       {/* Card with fade-in */}
       <motion.div
-        className="relative z-10 bg-white/60 backdrop-blur-md rounded-2xl shadow-2xl border-2 border-green-800/80 p-6 sm:p-8 w-full max-w-md text-center mx-4"
+        className="relative z-10 bg-white/40 backdrop-md rounded-2xl shadow-2xl border-2 border-green-800/80 p-6 sm:p-8 w-full max-w-md text-center mx-4"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
-        <h1 className="text-3xl sm:text-4xl font-extrabold mb-3 tracking-tight text-gray-900 font-script">
-          Cappuccino Gent
-        </h1>
-        <p className="text-base sm:text-lg font-medium text-gray-700 mb-2 font-serif">
+        <img
+          src="/images/logo192.png"
+          alt="Cappuccino Gent logo"
+          className="mx-auto mb-4 w-32 sm:w-40"
+        />
+        <p className="text-base sm:text-lg font-medium text-white 700 mb-2 font-serif">
           A boutique daytime experience in the heart of Ghent
         </p>
-        <p className="text-sm text-gray-500 mb-6 font-serif">
+        <p className="text-sm text-white 500 mb-6 font-serif">
           Brunch • Lunch • Desserts • Coffee
         </p>
 
@@ -71,7 +73,7 @@ export default function Homepage() {
           <a
             href="/MenuExample-W.pdf"
             rel="noopener noreferrer"
-            className="bg-green-900 text-white py-3 rounded-xl font-semibold hover:bg-green-800 transition shadow-lg"
+            className="bg-green-900/100 text-white py-3 rounded-xl font-semibold hover:bg-green-800 transition shadow-lg"
           >
             Bekijk Menu
           </a>
@@ -98,7 +100,7 @@ export default function Homepage() {
           </a>
         </div>
 
-        <div className="flex flex-col gap-1 mt-6 text-sm text-gray-500">
+        <div className="flex flex-col gap-1 mt-6 text-sm text-white 500">
           <p>Schedule: Tue–Sun | 09:00–21:00</p>
           <p>Address: Sint-Amandstraat 48</p>
         </div>
