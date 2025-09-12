@@ -18,7 +18,7 @@ export default function Homepage() {
   }, []);
 
   return (
-    <div className="relative min-h-screen w-screen flex items-center justify-center overflow-hidden">
+    <div className="relative h-screen w-screen flex items-center justify-center overflow-hidden">
       {/* 🎥 Video background injected as raw HTML */}
       {useVideo ? (
         <div
@@ -62,10 +62,10 @@ export default function Homepage() {
           alt="Cappuccino Gent logo"
           className="mx-auto mb-4 w-32 sm:w-40"
         />
-        <p className="text-base sm:text-lg font-medium text-[#f5f3f0] mb-2 font-serif">
+        <p className="text-base sm:text-lg font-medium text-[#edebe5]  700 mb-2 font-serif">
           A boutique daytime experience in the heart of Ghent
         </p>
-        <p className="text-sm text-[#f5f3f0] mb-6 font-serif">
+        <p className="text-sm text-[#f5f3f0]  500 mb-6 font-serif">
           Brunch • Lunch • Desserts • Coffee
         </p>
 
@@ -73,34 +73,34 @@ export default function Homepage() {
           <a
             href="/MenuExample-W.pdf"
             rel="noopener noreferrer"
-            className="bg-green-800/60 text-[#f6f5f2] py-3 rounded-xl font-semibold hover:bg-green-700/70 transition shadow-lg backdrop-blur-sm"
+            className="bg-green-800/60 text-[#f6f5f2]  py-3 rounded-xl font-semibold hover:bg-green-700/0 transition shadow-lg backdrop-blur-sm"
           >
             Bekijk Menu
           </a>
           <a
             href="https://www.instagram.com/cappuccino_gent/"
             rel="noopener noreferrer"
-            className="bg-green-800/60 text-[#f6f5f2] py-3 rounded-xl font-semibold hover:bg-green-700/70 transition shadow-lg backdrop-blur-sm"
+            className="bg-green-800/60 text-[#f6f5f2]  py-3 rounded-xl font-semibold hover:bg-green-700/70 transition shadow-lg backdrop-blur-sm"
           >
             Instagram
           </a>
           <a
             href="https://www.tiktok.com/@cappuccinogent"
             rel="noopener noreferrer"
-            className="bg-green-800/60 text-[#f6f5f2] py-3 rounded-xl font-semibold hover:bg-green-700/70 transition shadow-lg backdrop-blur-sm"
+            className="bg-green-800/60 text-[#f6f5f2]  py-3 rounded-xl font-semibold hover:bg-green-700/70 transition shadow-lg backdrop-blur-sm"
           >
             TikTok
           </a>
           <a
-            href="https://www.google.com/search?rlz=1C1SQJL_nlBE920BE920&q=Cappuccino+Gent+Reviews"
+            href="https://www.google.com/search?rlz=1C1SQJL_nlBE920BE920&q=Cappuccino+Gent+Reviews&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxI2NDU1NjQxNbIws7A0MzQyMjcy2MDI-IpR3DmxoKA0OTkzL1_BPTWvRCEotSwztbx4ESsuGQDIBf4wTgAAAA&rldimm=1553145286896122720&cs=1&hl=nl&sa=X&ved=0CB8Q9fQKKABqFwoTCOCSscfuzY8DFQAAAAAdAAAAABAG&biw=1536&bih=730&dpr=1.25&ibp=gwp;0,6#vhid=/g/11x8tdynn7&vssid=rllrl&lkt=LocalPoiReviews"
             rel="noopener noreferrer"
-            className="bg-green-800/60 text-[#f6f5f2] py-3 rounded-xl font-semibold hover:bg-green-700/70 transition shadow-lg backdrop-blur-sm"
+            className="bg-green-800/60 text-[#f6f5f2]  py-3 rounded-xl font-semibold hover:bg-green-700/70 transition shadow-lg backdrop-blur-sm"
           >
             Google Reviews
           </a>
         </div>
 
-        <div className="flex flex-col gap-1 mt-6 text-sm text-[#f5f3f0]">
+        <div className="flex flex-col gap-1 mt-6 text-sm text-[#edebe5]  500">
           <p>Schedule: Tue–Sun | 08:00–21:00</p>
           <p>Address: Sint-Amandstraat 48</p>
         </div>
