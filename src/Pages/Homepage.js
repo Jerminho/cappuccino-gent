@@ -71,7 +71,7 @@ export default function Homepage() {
 
         <div className="flex flex-col gap-4">
           <a
-            href="/MenuExample-W.pdf"
+            href="/Menu-outside_D3(W).pdf"
             rel="noopener noreferrer"
             className="bg-green-800/60 text-[#f6f5f2]  py-3 rounded-xl font-semibold hover:bg-green-700/0 transition shadow-lg backdrop-blur-sm"
           >
