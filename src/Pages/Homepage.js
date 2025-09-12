@@ -58,7 +58,7 @@ export default function Homepage() {
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
         <img
-          src="/images/logo-Capp.png"
+          src="/images/Logo-Capp.png"
           alt="Cappuccino Gent logo"
           className="mx-auto mb-4 w-32 sm:w-40"
         />
