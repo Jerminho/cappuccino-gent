@@ -34,7 +34,7 @@ export default function Homepage() {
                 disablepictureinpicture 
                 class="absolute inset-0 w-full h-full object-cover"
               >
-                <source src="/images/Cappuccino6.mp4" type="video/mp4" />
+                <source src="/images/Cappuccino7.mp4" type="video/mp4" />
                 <img src="${bg}" alt="coffee background" class="w-full h-full object-cover" />
               </video>
             `,
