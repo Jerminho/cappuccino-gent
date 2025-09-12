@@ -65,7 +65,7 @@ export default function Homepage() {
         <p className="text-base sm:text-lg font-medium text-[#edebe5]  700 mb-2 font-serif">
           A boutique daytime experience in the heart of Ghent
         </p>
-        <p className="text-sm text-[#edebe5]  500 mb-6 font-serif">
+        <p className="text-sm text-[#f5f3f0]  500 mb-6 font-serif">
           Brunch • Lunch • Desserts • Coffee
         </p>
 
@@ -73,14 +73,14 @@ export default function Homepage() {
           <a
             href="/MenuExample-W.pdf"
             rel="noopener noreferrer"
-            className="bg-green-800/60 text-[#edebe5]  py-3 rounded-xl font-semibold hover:bg-green-700/0 transition shadow-lg backdrop-blur-sm"
+            className="bg-green-800/60 text-[#f0eee9]  py-3 rounded-xl font-semibold hover:bg-green-700/0 transition shadow-lg backdrop-blur-sm"
           >
             Bekijk Menu
           </a>
           <a
             href="https://www.instagram.com/cappuccino_gent/"
             rel="noopener noreferrer"
-            className="bg-green-800/60 text-[#edebe5]  py-3 rounded-xl font-semibold hover:bg-green-700/70 transition shadow-lg backdrop-blur-sm"
+            className="bg-green-800/60 text-[#f6f5f2]  py-3 rounded-xl font-semibold hover:bg-green-700/70 transition shadow-lg backdrop-blur-sm"
           >
             Instagram
           </a>
