@@ -73,7 +73,7 @@ export default function Homepage() {
           <a
             href="/MenuExample-W.pdf"
             rel="noopener noreferrer"
-            className="bg-green-800/60 text-[#f0eee9]  py-3 rounded-xl font-semibold hover:bg-green-700/0 transition shadow-lg backdrop-blur-sm"
+            className="bg-green-800/60 text-[#f6f5f2]  py-3 rounded-xl font-semibold hover:bg-green-700/0 transition shadow-lg backdrop-blur-sm"
           >
             Bekijk Menu
           </a>
@@ -87,14 +87,14 @@ export default function Homepage() {
           <a
             href="https://www.tiktok.com/@cappuccinogent"
             rel="noopener noreferrer"
-            className="bg-green-800/60 text-[#edebe5]  py-3 rounded-xl font-semibold hover:bg-green-700/70 transition shadow-lg backdrop-blur-sm"
+            className="bg-green-800/60 text-[#f6f5f2]  py-3 rounded-xl font-semibold hover:bg-green-700/70 transition shadow-lg backdrop-blur-sm"
           >
             TikTok
           </a>
           <a
             href="https://www.google.com/search?rlz=1C1SQJL_nlBE920BE920&q=Cappuccino+Gent+Reviews&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxI2NDU1NjQxNbIws7A0MzQyMjcy2MDI-IpR3DmxoKA0OTkzL1_BPTWvRCEotSwztbx4ESsuGQDIBf4wTgAAAA&rldimm=1553145286896122720&cs=1&hl=nl&sa=X&ved=0CB8Q9fQKKABqFwoTCOCSscfuzY8DFQAAAAAdAAAAABAG&biw=1536&bih=730&dpr=1.25&ibp=gwp;0,6#vhid=/g/11x8tdynn7&vssid=rllrl&lkt=LocalPoiReviews"
             rel="noopener noreferrer"
-            className="bg-green-800/60 text-[#edebe5]  py-3 rounded-xl font-semibold hover:bg-green-700/70 transition shadow-lg backdrop-blur-sm"
+            className="bg-green-800/60 text-[#f6f5f2]  py-3 rounded-xl font-semibold hover:bg-green-700/70 transition shadow-lg backdrop-blur-sm"
           >
             Google Reviews
           </a>
