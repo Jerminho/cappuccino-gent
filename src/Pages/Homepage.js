@@ -101,7 +101,7 @@ export default function Homepage() {
         </div>
 
         <div className="flex flex-col gap-1 mt-6 text-sm text-[#edebe5]  500">
-          <p>Schedule: Tue–Sun | 08:00–21:00</p>
+          <p>Schedule: Mon–Sun | 08:00–21:00</p>
           <p>Address: Sint-Amandstraat 48</p>
         </div>
 
