@@ -71,7 +71,7 @@ export default function Homepage() {
 
         <div className="flex flex-col gap-4">
           <a
-            href="/Menu-outside_D3(W).pdf"
+            href="/FINAL-Al_Amaanah.pdf"
             rel="noopener noreferrer"
             className="bg-green-800/60 text-[#f6f5f2]  py-3 rounded-xl font-semibold hover:bg-green-700/0 transition shadow-lg backdrop-blur-sm"
           >
@@ -110,7 +110,7 @@ export default function Homepage() {
             href="https://www.pierrenh.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-2 text-xs text-gray-400 hover:underline"
+            className="mt-2 text-xs text-gray-200 hover:underline"
           >
             Built by NH
           </a>
