@@ -1,9 +1,9 @@
 // src/App.js
-// import Homepage from "./Pages/Homepage";
-import RenewPage from "./Pages/RenewPage";
+import Homepage from "./Pages/Homepage";
+//import RenewPage from "./Pages/RenewPage";
 
 function App() {
-  return <RenewPage />;
+  return <Homepage />;
 }
 
 export default App;

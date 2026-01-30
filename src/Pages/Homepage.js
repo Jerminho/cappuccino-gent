@@ -86,7 +86,7 @@ export default function Homepage() {
 
         <div className="flex flex-col gap-4">
           <a
-            href="/FINAL-Al_Amaanah.pdf"
+            href="/Coffee_Shop_Menu-capp.pdf"
             rel="noopener noreferrer"
             className="bg-green-800/60 text-[#f6f5f2] py-3 rounded-xl font-semibold hover:bg-green-700/0 transition shadow-lg backdrop-blur-sm"
           >
@@ -116,7 +116,7 @@ export default function Homepage() {
         </div>
 
         <div className="flex flex-col gap-1 mt-6 text-sm text-[#edebe5]">
-          <p>Schedule: Mon–Sun | 08:00–21:00</p>
+          <p>Schedule: Mon–Sun | 09:00–20:00</p>
           <p>Address: Sint-Amandstraat 48</p>
         </div>
 
